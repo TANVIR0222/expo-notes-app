@@ -1,56 +1,76 @@
-# Welcome to your Expo app 👋
+# Notes App 📝
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A sleek and simple note-taking application built with [Expo](https://expo.dev/) and React Native. "Every big idea starts with a small note. Capture your thoughts before they disappear."
 
-## Get started
+## 🚀 Features
 
-1. Install dependencies
+- **Expo Router:** Utilizes file-based routing for seamless navigation.
+- **Custom Splash Screen:** A beautiful, themed splash screen to welcome users.
+- **Theming:** Built-in support for Light and Dark modes (`useTheme` hook & `ThemeContext`).
+- **Custom Typography:** Uses the Roboto font family for a clean and modern look.
+- **TypeScript:** Fully typed for better developer experience and reliability.
 
-   ```bash
-   npm install
-   ```
+## 📂 Project Structure
 
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```text
+src/
+├── app/
+│   ├── index.tsx          # Initial Splash screen
+│   ├── _layout.tsx        # Root application layout
+│   └── notes-feature/     # Main notes feature module
+├── constants/
+│   ├── fonts.ts           # Typography definitions
+│   ├── fontSizes.ts       # Font size constants
+│   └── ThemeContext.tsx   # Theme provider for the app
+├── hook/
+│   └── useTheme.ts        # Custom hook for accessing the current theme
+├── interface/             # TypeScript interfaces and types
+└── styles/
+    └── SplashScreen.styles.ts # Splash screen specific styling
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 🛠️ Getting Started
 
-### Other setup steps
+### 1. Prerequisites
+Ensure you have the following installed:
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/) or [Bun](https://bun.sh/)
+- [Expo Go](https://expo.dev/go) app on your mobile device (optional, for testing).
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+### 2. Install Dependencies
 
-## Learn more
+Clone the repository and install the required dependencies:
 
-To learn more about developing your project with Expo, look at the following resources:
+```bash
+npm install
+# or
+bun install
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### 3. Start the Application
 
-## Join the community
+Run the development server:
 
-Join our community of developers creating universal apps.
+```bash
+npx expo start
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+This will start the Metro bundler. From there, you can open the app on:
+- An iOS Simulator (press `i`)
+- An Android Emulator (press `a`)
+- A physical device using the **Expo Go** app by scanning the QR code in the terminal.
+
+## 📦 Scripts
+
+- `npm start`: Starts the Expo development server.
+- `npm run android`: Runs the app on Android.
+- `npm run ios`: Runs the app on iOS.
+- `npm run web`: Starts the app in web mode.
+- `npm run lint`: Runs ESLint to check for code issues.
+
+## 🎨 Technologies Used
+
+- **Framework:** [React Native](https://reactnative.dev/) with [Expo](https://expo.dev/)
+- **Routing:** [Expo Router](https://docs.expo.dev/router/introduction/)
+- **Styling:** React Native StyleSheet
+- **Language:** TypeScript
