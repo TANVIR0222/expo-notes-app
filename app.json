@@ -17,7 +17,8 @@
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.tanvir_islam002.notesapp"
     },
     "web": {
       "output": "static",
@@ -33,6 +34,25 @@
             "image": "./assets/images/splash-icon.png",
             "imageWidth": 76
           }
+        }
+      ],
+      [
+        "expo-screen-orientation",
+        {
+          "initialOrientation": "DEFAULT"
+        }
+      ],
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/Roboto-Regular.ttf",
+            "./assets/fonts/Roboto-Medium.ttf",
+            "./assets/fonts/Roboto-SemiBold.ttf",
+            "./assets/fonts/Roboto-Bold.ttf",
+            "./assets/fonts/Roboto-Light.ttf",
+            "./assets/fonts/Roboto-Black.ttf"
+          ]
         }
       ]
     ],
