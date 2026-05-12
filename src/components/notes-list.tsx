@@ -249,7 +249,7 @@ const styles = StyleSheet.create({
     flex: 1,
     margin: 6,
     padding: 16,
-    borderRadius: 22,
+    borderRadius: 10,
     minHeight: 190,
     justifyContent: "space-between",
     shadowColor: "#000",

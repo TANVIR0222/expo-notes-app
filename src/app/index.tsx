@@ -47,7 +47,7 @@ export default function Splash() {
           resizeMode="contain"
         />
 
-        <Text style={styles.title}>Great Things Start Here ✨</Text>
+        <Text style={styles.title}>Great Things Start Here </Text>
 
         <Text style={styles.subtitle}>
           Every big idea starts with a small note.{"\n"}
