@@ -1,5 +1,5 @@
 import { useTheme } from "@/hook/useTheme";
-import { getStyles } from "@/styles/SplashScreen.styles";
+import { getStyles } from "@/styles/splash-screen-styles";
 import { router } from "expo-router";
 import * as SplashScreen from "expo-splash-screen";
 import { useEffect, useState } from "react";

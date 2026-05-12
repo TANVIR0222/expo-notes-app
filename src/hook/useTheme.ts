@@ -8,5 +8,5 @@ export const useTheme = () => {
     throw new Error("useTheme must be used inside ThemeProvider");
   }
 
-  return context; // 👉 এখন TS বুঝবে: ALWAYS ThemeContextType
+  return context;
 };

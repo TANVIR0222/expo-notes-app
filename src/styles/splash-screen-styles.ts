@@ -1,5 +1,5 @@
+import FontSizes from "@/constants/font-sizes";
 import { Fonts } from "@/constants/fonts";
-import FontSizes from "@/constants/fontSizes";
 import { StyleSheet } from "react-native";
 
 export const getStyles = (isDark: boolean | undefined) =>
