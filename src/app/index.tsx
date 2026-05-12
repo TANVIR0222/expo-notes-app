@@ -6,7 +6,6 @@ import { useEffect, useState } from "react";
 import { ActivityIndicator, Image, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
-// Keep native splash visible
 SplashScreen.preventAutoHideAsync();
 
 export default function Splash() {
@@ -15,7 +14,6 @@ export default function Splash() {
   const { isDark } = useTheme();
   const styles = getStyles(isDark);
 
-  // Splash delay
   useEffect(() => {
     const timer = setTimeout(() => {
       setReady(true);
@@ -24,7 +22,6 @@ export default function Splash() {
     return () => clearTimeout(timer);
   }, []);
 
-  // Navigate after ready
   useEffect(() => {
     const prepare = async () => {
       if (ready) {
