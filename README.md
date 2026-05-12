@@ -1,12 +1,12 @@
 # Notes App 📝
-<img width="600" height="600" alt="Screenshot_2026-05-12-22-03-28-927_com helloworld" src="https://github.com/user-attachments/assets/6ea3dfd1-05e7-46d1-a1ef-e42b4dcc7192" />
-<img width="600" height="600" alt="Screenshot_2026-05-12-22-03-34-286_com helloworld" src="https://github.com/user-attachments/assets/f14beba3-df8b-4507-9d3e-729cb244a943" />
+<img width="300" height="600" alt="Screenshot_2026-05-12-22-03-28-927_com helloworld" src="https://github.com/user-attachments/assets/6ea3dfd1-05e7-46d1-a1ef-e42b4dcc7192" />
+<img width="300" height="600" alt="Screenshot_2026-05-12-22-03-34-286_com helloworld" src="https://github.com/user-attachments/assets/f14beba3-df8b-4507-9d3e-729cb244a943" />
 
-<img width="600" height="600" alt="Screenshot_2026-05-12-22-03-43-937_com helloworld" src="https://github.com/user-attachments/assets/1d34f025-e90f-4dce-8390-aa0d7d16c699" />
-<img width="600" height="600" alt="Screenshot_2026-05-12-22-21-26-508_com tanvir_islam002 notesapp" src="https://github.com/user-attachments/assets/3382d03f-e4b2-4304-bbf4-e17214f65896" />
+<img width="300" height="600" alt="Screenshot_2026-05-12-22-03-43-937_com helloworld" src="https://github.com/user-attachments/assets/1d34f025-e90f-4dce-8390-aa0d7d16c699" />
+<img width="300" height="600" alt="Screenshot_2026-05-12-22-21-26-508_com tanvir_islam002 notesapp" src="https://github.com/user-attachments/assets/3382d03f-e4b2-4304-bbf4-e17214f65896" />
 
-<img width="600" height="600" alt="Screenshot_2026-05-12-22-03-25-444_com helloworld" src="https://github.com/user-attachments/assets/74759605-6562-463a-9e7b-9c635e7e1c3a" />
-<img width="600" height="600" alt="Media (59)" src="https://github.com/user-attachments/assets/4a214d48-1b5f-44f3-b76f-8df37687e21a" />
+<img width="300" height="600" alt="Screenshot_2026-05-12-22-03-25-444_com helloworld" src="https://github.com/user-attachments/assets/74759605-6562-463a-9e7b-9c635e7e1c3a" />
+<img width="300" height="600" alt="Media (59)" src="https://github.com/user-attachments/assets/4a214d48-1b5f-44f3-b76f-8df37687e21a" />
 
 
 A sleek and simple note-taking application built with [Expo](https://expo.dev/) and React Native. "Every big idea starts with a small note. Capture your thoughts before they disappear."
